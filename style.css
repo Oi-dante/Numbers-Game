@@ -1,6 +1,6 @@
 :root{
   --font-family: 'Cherry Bomb One', sans serif;
-  --bg-color:;
+  --bg-color:white;
   --primary-clr: #30A2FF;
   --second-clr:#00C4FF;
   --third-clr:#FFE7A0;
@@ -21,10 +21,7 @@ body {
   margin: 0;
 }
 
-.top{
 
-  
-}
 
 h1{
   font-size: 4rem;
@@ -41,4 +38,13 @@ h2, .message{
   background: var(--second-clr);
   padding: 1.5rem;
   border-radius: 3rem;
+}
+
+.box{
+  border-radius: 40px;
+  border: 5px solid var(--fourth-clr);
+  display: inline-block;
+  font-size: 4rem;
+  padding: 10px;
+  margin: 20px;
 }
