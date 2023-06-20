@@ -1,5 +1,5 @@
 const lessValue = 0
-const moreValue = 100
+const moreValue = 500
 const secretNumber = generateRandomNumber();
 
 function generateRandomNumber() {

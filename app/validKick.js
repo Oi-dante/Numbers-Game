@@ -2,7 +2,7 @@ function validKick(kick) {
   const number = +kick
 
   if (invalidKick(number)) {
-    elementKick.innerHTML += '<div>valor In</div>';
+    elementKick.innerHTML += '<div>Valor Ivalido</div>';
   }
 
   if (allowedValue(number)) {
@@ -13,8 +13,10 @@ function validKick(kick) {
 
   if (number === secretNumber) {
     document.body.innerHTML = `
-    <h3>Você Acertou!</h3>
-    <h2>O Número Secreto era ${secretNumber}</h2>
+    <h3>You Win!</h3>
+    <h2>The Secret Nmber Was: ${secretNumber}</h2>
+
+    <button id="play-again" class="btn-play">Play Again</button>
     `
   } else if (number > secretNumber) {
     elementKick.innerHTML += `
