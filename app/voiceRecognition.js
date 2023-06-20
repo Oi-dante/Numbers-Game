@@ -19,5 +19,5 @@ function kickResult(kick) {
     <div>You Say</div>
     <span class="box">${kick}</span>
   `
-
 }
+ recognition.addEventListener('end', () => recognition.start())
