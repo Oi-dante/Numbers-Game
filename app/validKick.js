@@ -34,3 +34,10 @@ function invalidKick(number) {
 function allowedValue(number) {
   return number > moreValue || number < lessValue
 }
+
+document.body.addEventListener('click', e => {
+  if (e.target.id == 'play-again') {
+    window.location.reload()
+  }
+  
+})
